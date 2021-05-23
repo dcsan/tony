@@ -2,7 +2,11 @@ import logging
 import json
 
 # logging.basicConfig(format='[%(module)s]\t %(message)s', level=logging.DEBUG)
-logging.basicConfig(format='%(message)s', level=logging.DEBUG)
+logging.basicConfig(format='%(message)s',
+                    level=logging.DEBUG,
+                    filename='logs/logger.log',
+                    filemode='w',
+                    )
 
 
 class CLogger():
