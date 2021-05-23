@@ -1,0 +1,3 @@
+# ignore large intents.csv
+csv/intents.csv
+
